@@ -29,7 +29,7 @@ def main():
         "Small Consistent Effort \n
         Lead to Great Results"
         """)
-    st.image(load_image("images/profile.png"), width=300)
+    st.image(load_image(r"images/profile.png"), width=300)
     st.download_button(
         label="Download CV",
         data=open("reports/Resume___CV.pdf", "rb").read(),
